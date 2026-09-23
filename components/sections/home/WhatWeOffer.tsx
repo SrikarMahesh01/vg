@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export function WhatWeOffer({ content }: { content: any }) {
@@ -9,8 +10,12 @@ export function WhatWeOffer({ content }: { content: any }) {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {content.cards.map((card: any, idx: number) => (
           <div key={idx} className="flex flex-col rounded-md border border-black/10 overflow-hidden bg-green-50/30">
-            <div className="h-48 bg-green-100/50 flex items-center justify-center border-b border-black/5">
-              <span className="text-sm font-semibold text-green-800">IMAGE / GRAPHIC</span>
+            <div className="h-48 relative bg-green-100/50 flex items-center justify-center border-b border-black/5">
+              {card.image ? (
+                <Image src={card.image} alt={card.title} fill className="object-cover" />
+              ) : (
+                <span className="text-sm font-semibold text-green-800">IMAGE / GRAPHIC</span>
+              )}
             </div>
             <div className="p-6 flex-1 flex flex-col text-center">
               <h3 className="text-lg font-semibold text-zinc-900">{card.title}</h3>

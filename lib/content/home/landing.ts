@@ -2,8 +2,8 @@ export const homeLandingContent = {
   hero: {
     heading: "Fostering the data economy at enterprise scale.",
     subheading: "Harness your data, secure your cloud, and accelerate with AI. We partner with enterprises to execute your digital future.",
-    primaryCta: { label: "Talk to an Architect", href: "/contact/sales-inquiries" },
-    secondaryCta: { label: "Explore Services", href: "/services/cloud-services" },
+    primaryCta: { label: "Plan Your Build", href: "/contact/sales-inquiries" },
+    secondaryCta: { label: "Explore Services", href: "/services" },
     image: "/images/hero-placeholder.svg",
   },
   keyOfferings: [
@@ -15,15 +15,15 @@ export const homeLandingContent = {
   whatWeOffer: {
     heading: "Core Capabilities",
     cards: [
-      { title: "Digital Product Engineering", body: "End-to-end product development.", image: "/images/offer-1.svg" },
-      { title: "Application Modernization", body: "Modernize legacy systems efficiently.", image: "/images/offer-2.svg" },
-      { title: "Enterprise Automation", body: "RPA and automation at scale.", image: "/images/offer-3.svg" },
+      { title: "Digital Product Engineering", body: "End-to-end product development.", image: "/images/DPE.png" },
+      { title: "Application Modernization", body: "Modernize legacy systems efficiently.", image: "/images/AM.png" },
+      { title: "Enterprise Automation", body: "RPA and automation at scale.", image: "/images/EA.png" },
     ],
-    cta: { label: "View all capabilities", href: "/services/cloud-services" }
+    cta: { label: "View all capabilities", href: "/services" }
   },
   featuredIndustries: [
-    { title: "Banking & Finance", body: "Secure solutions for financial institutions.", image: "/images/industry-1.svg", href: "/industries/banking-finance" },
-    { title: "Healthcare & Life Sciences", body: "Compliant digital health platforms.", image: "/images/industry-2.svg", href: "/industries/healthcare" }
+    { title: "Banking & Finance", body: "Secure solutions for financial institutions.", image: "/images/Banking.avif", href: "/industries/banking-finance" },
+    { title: "Healthcare & Life Sciences", body: "Compliant digital health platforms.", image: "/images/Heath_and_Life_Sciences.jpg", href: "/industries/healthcare" }
   ],
   impact: {
     heading: "Transformative Impact",
@@ -40,6 +40,6 @@ export const homeLandingContent = {
     body: "Build the future of enterprise tech with industry leaders.",
     ctaLabel: "View Open Positions",
     ctaHref: "/careers/jobs",
-    image: "/images/careers-placeholder.svg"
+    image: "/images/Team_Innovators.jpg"
   }
 };

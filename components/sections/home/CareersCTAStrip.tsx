@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export function CareersCTAStrip({ content }: { content: any }) {
@@ -14,8 +15,12 @@ export function CareersCTAStrip({ content }: { content: any }) {
              {content.ctaLabel}
            </Link>
         </div>
-        <div className="w-full md:w-1/2 bg-blue-200/40 flex items-center justify-center min-h-[300px] border-t md:border-t-0 md:border-l border-black/5">
-           <span className="text-lg font-semibold text-blue-800">IMAGE</span>
+        <div className="w-full md:w-1/2 relative bg-blue-200/40 flex items-center justify-center min-h-[300px] border-t md:border-t-0 md:border-l border-black/5">
+           {content.image ? (
+             <Image src={content.image} alt={content.heading} fill className="object-cover" />
+           ) : (
+             <span className="text-lg font-semibold text-blue-800">IMAGE</span>
+           )}
         </div>
       </div>
     </section>

@@ -7,7 +7,7 @@ import { VirtueLogo } from "@/components/common/VirtueLogo";
 const NAV_ITEMS = [
   {
     label: "About Us",
-    href: "/about/our-story",
+    href: "/about",
     subItems: [
       { label: "Our Story (Vision & Mission)", href: "/about/our-story" },
       { label: "Leadership & Board Directory", href: "/about/leadership" },
@@ -19,7 +19,7 @@ const NAV_ITEMS = [
   },
   {
     label: "Services",
-    href: "/services/cloud-services",
+    href: "/services",
     subItems: [
       { label: "Cloud Services (GCP Architecture & Hosting)", href: "/services/cloud-services" },
       { label: "Cloud Migration", href: "/services/cloud-migration" },
@@ -33,7 +33,7 @@ const NAV_ITEMS = [
   },
   {
     label: "Industries",
-    href: "/industries/banking-finance",
+    href: "/industries",
     subItems: [
       { label: "Banking & Finance", href: "/industries/banking-finance" },
       { label: "Healthcare & Life Sciences", href: "/industries/healthcare" },
@@ -45,7 +45,7 @@ const NAV_ITEMS = [
   },
   {
     label: "Insights",
-    href: "/insights/blog",
+    href: "/insights",
     subItems: [
       { label: "Tech Blog & Engineering Articles", href: "/insights/blog" },
       { label: "Case Studies Catalog", href: "/insights/case-studies" },
@@ -55,7 +55,7 @@ const NAV_ITEMS = [
   },
   {
     label: "Careers",
-    href: "/careers/why-work-with-us",
+    href: "/careers",
     subItems: [
       { label: "Why Work With Us (Culture)", href: "/careers/why-work-with-us" },
       { label: "Students & Graduates", href: "/careers/students" },
@@ -67,7 +67,7 @@ const NAV_ITEMS = [
   },
   {
     label: "Trust & Security",
-    href: "/trust-security/data-privacy",
+    href: "/trust-security",
     subItems: [
       { label: "Data Privacy Hub (GDPR, etc.)", href: "/trust-security/data-privacy" },
       { label: "Compliance Overview", href: "/trust-security/compliance" },
@@ -75,7 +75,7 @@ const NAV_ITEMS = [
   },
   {
     label: "Contact",
-    href: "/contact/sales-inquiries",
+    href: "/contact",
     subItems: [
       { label: "Sales Inquiries & Contact Form", href: "/contact/sales-inquiries" },
       { label: "Global Office Directory", href: "/contact/global-offices" },
